@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>  
+<meta content="text/html; charset=UTF8" http-equiv="content-type">  
+<title>Aviso Para Solicitante de Firma
+</title>
+</head>
+ <body>
+
+<table style="text-align: left; width: 966px; height: 85px;" border="1" cellpadding="2" cellspacing="0" bordercolor="a0a0a0">
+  <tbody>
+    <tr>
+          <td width="94" bgcolor="#FFFFFF" style="text-align: center;">
+            <img style="width: 94px; height: 101px;" alt="Logo" title="Logo GCABA" src="cid:logoGCABA1">
+         </td>
+      <td width="709" bgcolor="#0072bc" style="text-align: center; font-size: 24px; color: #FFFFFF; font-family: Arial;"><strong>GDE</strong> - Porta Firma</p></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: left;"><p>&nbsp;</p>
+          <p><span>Se&ntilde;or/a <span style="font-weight: bold;">${nombreCompletoRemitenteCreador}</span></span></p>
+          <div style="margin-left:50px;"> <span>Le informamos que una solicitud de firma creada por Ud. ha sido rechazada. </span> <br>
+            <br>
+            <span style="font-weight: bold;">Datos del rechazo:</span>
+            <ul>
+              <li>Rechazada por: ${nombreCompletoUsuarioRechazo}</li>
+              <li>Fecha: ${fechaRechazo}</li>
+              <li>Motivo provisto: ${motivoRechazo}</li>
+            </ul>
+            <br>
+            <span style="font-weight: bold;">Datos de la solicitud original:</span>
+            <ul>
+              <li>Referencia: ${motivo}</li>
+              <li>Fecha de creaci&oacute;n: ${fechaPedidoFirma}</li>
+              <li>Sistema origen: ${sistemaOrigen}</li>
+            </ul>
+          </div>
+          <p>&nbsp;</p><br>
+<small> <span style="font-family: Arial; font-size: 12px; color:#000000"><span style="text-decoration: underline; font-weight: bold;">ATENCIÓN:</span> El siguiente es un mensaje generado automáticamente por el <span style="font-weight: bold;">Sistema de Administración de Usuarios </span>de la <span style="font-weight: bold;">Gobierno de la República Argentina</span> y no debe ser respondido.</span></small><br>
+<br>
+              
+            </td>
+          </tr>
+          
+<tr>
+          <td width="94" bgcolor="#FFFFFF" style="text-align: center;">
+            <img style="width: 94px; height: 101px;" alt="Logo" title="Logo GCABA" src="cid:logoGCABA1">
+          </td>
+      <td width="709" bgcolor="#0072bc" style="text-align: center; font-size: 24px; color: #FFFFFF; font-family: Arial;"></td>
+          </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

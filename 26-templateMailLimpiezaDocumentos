@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0086)file:///C:/Users/jferreir/AppData/Local/Temp/templateMailLimpiezaDocumentos%20(2).html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF8">  
+      
+<title>Aviso de Vencimiento de Documento
+</title>
+  </head>
+ <body>
+
+    <table style="text-align: left; width: 966px; height: 85px;" border="1" cellpadding="2" cellspacing="0" bordercolor="a0a0a0">
+  <tbody>
+    <tr>
+          <td width="94" bgcolor="#FFFFFF" style="text-align: center;">
+            <img style="width: 94px; height: 101px;" alt="Logo" title="Logo GCABA" src="cid:logoGCABA1">
+          </td>
+      <td width="709" bgcolor="#0072bc" style="text-align: center; font-size: 24px; color: #FFFFFF; font-family: Arial;"><strong>GDE</strong> - Generador Electrónico de Documentos Oficiales</p></td>      
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: left;"><p>&nbsp;</p>
+            <p><span>Señor/a <span style="font-weight: bold;">${nombreCompletoDestinatario}</span></span></p>
+            <div style="margin-left:50px;"> <span>Le informamos que por motivos de mantenimiento de GEDO, todas las tareas de confección de documento que no se encuentren firmadas y posean una antiguedad mayor a los <span style="font-weight: bold;">${cantidadMesesLimpieza}</span> meses, seran borrados del sistema en: <span style="font-weight: bold;">${diferenciaDeDiasEntreMailYLimpieza}</span> dias. </span> <br>
+              <br>
+              <span>Usted posee: <span style="font-weight: bold;">${cantidadDeDocumentosSinFinalizar}</span> tareas de confección de documento que aun se encuentran sin finalizar/firmar. </span> <br>
+              <br>
+            </div>
+          <p>&nbsp;</p>
+          
+          <br>
+<small> <span style="font-family: Arial; font-size: 12px; color:#000000"><span style="text-decoration: underline; font-weight: bold;">ATENCIÓN:</span> El siguiente es un mensaje generado automáticamente por el <span style="font-weight: bold;">Sistema de Administración de Usuarios </span>de la <span style="font-weight: bold;">Gobierno de la República Argentina</span> y no debe ser respondido.</span></small><br>
+<br>
+              
+            </td>
+          </tr>
+          
+<tr>
+          <td width="94" bgcolor="#FFFFFF" style="text-align: center;">
+            <img style="width: 94px; height: 101px;" alt="Logo" title="Logo GCABA" src="cid:logoGCABA1">
+          </td>
+      <td width="709" bgcolor="#0072bc" style="text-align: center; font-size: 24px; color: #FFFFFF; font-family: Arial;"></td>
+          </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

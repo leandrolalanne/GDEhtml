@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<title>Aviso de alta de usuario GDE
+</title>
+</head>
+ <body>
+
+   <table style="text-align: left; width: 966px; height: 85px;" border="1" cellpadding="2" cellspacing="0" bordercolor="a0a0a0">
+  <tbody>
+    <tr>
+          <td width="94" bgcolor="#FFFFFF" style="text-align: center;">
+            <img style="width: 94px; height: 101px;" alt="Logo" title="Logo GCABA" src="cid:logo">
+          </td>
+      <td width="709" bgcolor="#0072bc" style="text-align: center; font-size: 24px; color: #FFFFFF; font-family: Arial;"><strong>GDE</strong> - Administración de Usuarios </td>
+          </tr>
+
+        <tr>
+          <td colspan="3" bgcolor="#FFFFFF" style="text-align: justify;">
+
+			<p>&nbsp;</p> 
+			<p><b>Señor/a ${usuarioNombre},</b><br />
+				<br />
+				Se le notifica que se ha dado de baja el usuario <b> ${usuarioBaja} </b>para los sistemas GDE, 
+deberá asignar otro usuario para los siguientes campos: <br />
+
+<br />
+<UL><LI><b> Superior jerárquico</b></UL>
+
+<br />
+
+Saludos cordiales. 
+<br />
+</p>
+              
+              <br>
+<small> <span style="font-family: Arial; font-size: 12px; color:#000000"><span style="text-decoration: underline; font-weight: bold;">ATENCIÓN:</span> El siguiente es un mensaje generado automáticamente por el <span style="font-weight: bold;">Sistema de Administración de Usuarios </span>de la <span style="font-weight: bold;">Gobierno de la República Argentina</span> y no debe ser respondido.</span></small><br>
+<br>
+              
+            </td>
+          </tr>
+          
+<tr>
+          <td width="94" bgcolor="#FFFFFF" style="text-align: center;">
+            <img style="width: 94px; height: 101px;" alt="Logo" title="Logo GCABA" src="cid:logo">
+          </td>
+      <td width="709" bgcolor="#0072bc" style="text-align: center; font-size: 24px; color: #FFFFFF; font-family: Arial;"></td>
+          </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

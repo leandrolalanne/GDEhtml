@@ -1,0 +1,40 @@
+<html>
+ <head></head>
+ <body> 
+  <table border="1" bordercolor="a0a0a0" cellpadding="2" cellspacing="0" style="text-align: left; width: 966px; height: 85px;"> 
+   <tbody> 
+    <tr> 
+     <td bgcolor="#FFFFFF" style="text-align: center;" width="94"> <img alt="Logo" src="cid:logoGCABA1" style="width: 94px; height: 101px;" title="Logo GCABA"></td> 
+     <td bgcolor="#0072bc" style="text-align: center; font-size: 24px; color: #FFFFFF; font-family: Arial;" width="709"> <strong>GDE</strong> - Comunicaciones Oficiales</td> 
+    </tr> 
+    <tr> 
+     <td colspan="2" style="text-align: left;"> <p> &nbsp;</p> 
+      <blockquote> 
+       <p> <br> <small><span style="font-family: Arial;"><big><big>Ha recibido </big></big></span></small><span style="font-family: Arial; font-weight: bold;">${tipoComunicacionOficial}</span><small><span style="font-family: Arial;">. </span></small> <strong><a href="https://euc.gde.santacruz.gob.ar/ccoo-web/" rel="nofollow">Ingresar al Sistema</a></strong><br> <br> <span style="font-family: Arial; font-weight: bold;">Información de la Comunicación Oficial recibida</span><br style="font-family: Arial;"> <small><span style="font-family: Arial;">Número de carátula GDE: ${nroCaratula}</span><br style="font-family: Arial;"> <span style="font-family: Arial;">Tipo de Comunicación (Nota/Memo):&nbsp;${tipoComunicacionOficial}</span><br style="font-family: Arial;"> <span style="font-family: Arial;">Contiene adjuntos: ${contieneAdjuntos}</span></small><br> <br> <br> <small><span style="font-family: Arial;"><big style="font-weight: bold;">Datos del Originante</big></span><br style="font-family: Arial;"> <span style="font-family: Arial;">Nombre y Apellido: </span><small> <span style="font-family: Arial;"><big>${originante} </big><br> <big>Cargo: (${cargo})</big></span></small><br style="font-family: Arial;"> <br style="font-family: Arial;"> <br> <span style="font-family: Arial;"><big style="font-weight: bold;">Mensaje enviado junto con la Comunicación Oficial por el originante</big></span></small></p> 
+       <table border="1" bordercolor="#000000" cellpadding="2" cellspacing="0" style="text-align: left; width: 775px; height: 343px; margin: 0 auto; "> 
+        <tbody> 
+         <tr> 
+          <td style="vertical-align: top;"> 
+           <blockquote> 
+            <p> &nbsp;</p> 
+            <p> <small><span style="font-family: Arial;">${mensajeDelOriginante}</span></small></p> 
+           </blockquote> </td> 
+         </tr> 
+        </tbody> 
+       </table> 
+       <p> &nbsp;</p> 
+       <p> &nbsp;</p> 
+       <br> 
+       <small><span style="font-family: Arial; font-size: 12px; color:#000000"><span style="text-decoration: underline; font-weight: bold;">ATENCIÓN:</span> El siguiente es un mensaje generado automáticamente por el <span style="font-weight: bold;">Sistema de Administración de Usuarios </span>de la <span style="font-weight: bold;">Gobierno de la República Argentina</span> y no debe ser respondido.</span></small> 
+       <br> &nbsp; 
+      </blockquote> </td> 
+    </tr> 
+    <tr> 
+     <td bgcolor="#FFFFFF" style="text-align: center;" width="94"> <img alt="Logo" src="cid:logoGCABA1" style="width: 94px; height: 101px;" title="Logo GCABA"></td> 
+     <td bgcolor="#0072bc" style="text-align: center; font-size: 24px; color: #FFFFFF; font-family: Arial;" width="709"> &nbsp;</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p> &nbsp;</p> 
+ </body>
+</html>

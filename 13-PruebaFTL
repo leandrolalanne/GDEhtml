@@ -1,0 +1,217 @@
+<html>
+<head> 
+<title>Error de sistema</title>
+
+<style type='text/css'>
+BODY{ color:#000000; font-family:sans-serif; font-size:small;}
+.elementoVisible {display:block;}
+.elementoOculto {display:none; color:#900; text-align: justify;}
+.linkContraido {
+     cursor: pointer;
+     width: 500px;
+     color:#900; 
+	 font-family:sans-serif; 
+	 font-size:small;
+}
+.linkExpandido {
+     cursor: pointer;
+     width: 500px;
+     color:#000000; 
+	 font-family:sans-serif; 
+	 font-size:small;
+}
+.egovBoton {
+	width: 80px;
+	height: 20px;
+	color: #EFEFEF;
+	background: #026290;
+	font-size: 12px;
+	font-weight: normal;
+	margin-right: 3px;
+	margin-left: 3px;
+	cursor: hand;
+	-ora-text-antialias: true;
+}
+
+body {
+	background-color: #EFEFEF;
+	scrollbar-face-color: #DEE3E7;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #DEE3E7;
+	scrollbar-3dlight-color: #D1D7DC;
+	scrollbar-arrow-color: #006699;
+	scrollbar-track-color: #EFEFEF;
+	scrollbar-darkshadow-color: #98AAB1;
+	font-family: Trebuchet MS, Tahoma, Arial, sans-serif, helvetica, impact;
+	font-size: 12px;
+}
+
+.tabla {
+	background: #fff;
+	border: 2px #98aab1 solid;
+	font-size: 12px;
+	margin-top: 30px;
+	width: 450px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.logo {
+	padding: 20px;
+	text-align: center;
+}
+
+.titulo {
+	padding-bottom: 5px;
+}
+
+.justify {
+	text-align: justify;
+	padding: 10px;
+	width: 45%;
+}
+
+.left {
+	text-align: right;
+	width: 45%;
+}
+
+.right {
+	text-align: left;
+	width: 55%;
+}
+
+.egovBoton {
+	width: 80px;
+	height: 20px;
+	color: #EFEFEF;
+	background: #026290;
+	font-size: 12px;
+	font-weight: normal;
+	margin-right: 3px;
+	margin-left: 3px;
+	cursor: hand;
+	-ora-text-antialias: true;
+	margin: 10px;
+}
+
+td {
+	padding-top: 5px;
+}
+
+img {
+	border: none;
+}
+
+a {
+	color: #1975D7;
+	text-decoration: none;
+	background: url(down.gif) no-repeat left;
+}
+
+a:hover {
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+}
+</style>
+<script type='text/JavaScript'>
+function verocultar(href) {
+   var c = href.nextSibling;
+   if(c.style.display == 'none') {
+      c.style.display = 'block';
+   } else {
+      c.style.display = 'none';
+   }
+   return false;
+}
+function desplegarContraer(cual,desde) { SINO(cual); } // para preservar compatibilidad
+function SINO(cual) {
+   var elElemento=document.getElementById(cual);
+   if(elElemento.style.display == 'block') {
+      elElemento.style.display = 'none';
+   } else {
+      elElemento.style.display = 'block';
+   }
+}
+
+</script>
+</head>
+<table align="center" border="0" cellpadding="20" cellspacing="0" dir="ltr" style="border:0xp;cellpadding:20px;width:500px" class="tabla">
+	<thead>
+		<tr>
+			<th colspan="4" scope="col" style="background-color:#026290; height:30px; text-align:center; vertical-align:middle; width:500px">
+			<p>
+				<span style="color:#ffffff; font-size:16px; font-family:Arial,Helvetica,sans-serif">
+						<img alt="" src="login.png" style="border-style:solid; border-width:0px; float:left; height:58px; margin:0px; width:41px" />
+						<br />
+							Error en el servicio
+				
+				</span>
+			</p>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color:#efefee; text-align:justify; font-family:sans-serif; font-size:small; vertical-align:middle">
+			<p style="text-align: justify;">El servicio no se encuentra disponible en este momento, disculpe las molestias ocasionadas.</p>
+			<div onclick="desplegarContraer('unBloque',this);" class="linkContraido" style="text-align: justify;font-weight:bold;">Detalle del error +</div>
+			<div id="unBloque" class='elementoOculto'>
+				<p>Error 503 Server Unavailable</br>No server is available to handle this request</p>
+			</div>
+			<p style="text-align: justify;"> Contacto: <a href="mailto:mesadeayuda_gde@modernizacion.gob.ar">mesadeayuda_gde@modernizacion.gob.ar</a></br></br>
+			Intente ingresar en forma directa a los m&oacute;dulos mediante los botones que figuran a continuaci&oacute;n.</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#efefee; text-align:center; vertical-align:top"><input name="CCOO" class="egovBoton" type="button" onclick="location.href='https://euc.gde.gob.ar/';" value="CCOO" /></td>
+			<td style="background-color:#efefee; text-align:center; vertical-align:top"><input name="EE" class="egovBoton" type="button" onclick="location.href='https://eue.gde.gob.ar/';" value="EE" /></td>
+			<td style="background-color:#efefee; text-align:center; vertical-align:top"><input name="EU" class="egovBoton" type="button" onclick="location.href='https://eu.gde.gob.ar/';" value="EU" /></td>
+			<td style="background-color:#efefee; text-align:center; vertical-align:top"><input name="GEDO" class="egovBoton" type="button" onclick="location.href='https://eug.gde.gob.ar/';" value="GEDO" /></td>
+		</tr>
+	</tbody>
+</table>
+
+				    
+		<table width="100%" height="80%" border="0" cellspacing="0">
+			<tr>
+				<td align="center" valign="middle">
+				
+		
+				<table class="tabla" align="center">
+		
+					<tr>
+						<td class="logo" colspan="4">
+							<img src="Escudo_Gobierno_ 100x122.jpg.png" /> 
+							<p>
+								<strong>Gesti&oacute;n Documental Electr&oacute;nica</strong>
+							</p>
+						</td>
+					</tr>
+							
+					<tr>
+						<td class="justify" colspan="4">
+							<p style="text-align: justify;">El servicio no se encuentra disponible en este momento, disculpe las molestias ocasionadas.</p>
+							<div onclick="desplegarContraer('unBloque2',this);" class="linkContraido" style="text-align: justify;font-weight:bold;">Detalle del error +</div>
+							<div id="unBloque2" class='elementoOculto'>
+								<p>Error 503 Server Unavailable</br>No server is available to handle this request</p>
+							</div>
+							<p style="text-align: justify;"> Contacto: <a href="mailto:mesadeayuda_gde@modernizacion.gob.ar">mesadeayuda_gde@modernizacion.gob.ar</a></br></br>
+							Intente ingresar en forma directa a los m&oacute;dulos mediante los botones que figuran a continuaci&oacute;n.</p>
+						</td>
+					</tr>
+		     
+					<tr>
+						<td style="  text-align:center; vertical-align:top"><input name="CCOO" class="egovBoton" type="button" onclick="location.href='https://euc.gde.gob.ar/';" value="CCOO" /></td>
+						<td style="  text-align:center; vertical-align:top"><input name="EE" class="egovBoton" type="button" onclick="location.href='https://eue.gde.gob.ar/';" value="EE" /></td>
+						<td style="  text-align:center; vertical-align:top"><input name="EU" class="egovBoton" type="button" onclick="location.href='https://eu.gde.gob.ar/';" value="EU" /></td>
+						<td style="  text-align:center; vertical-align:top"><input name="GEDO" class="egovBoton" type="button" onclick="location.href='https://eug.gde.gob.ar/';" value="GEDO" /></td>
+					</tr>
+				</table>
+		
+				</td>
+			</tr>
+		</table>
+
+</html>

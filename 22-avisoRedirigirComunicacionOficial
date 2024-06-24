@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<title>Aviso Redirigir Comunicaci&oacute;n Oficial</title>
+</head> <body>
+
+    <table style="text-align: left; width: 966px; height: 85px;" border="1" cellpadding="2" cellspacing="0" bordercolor="a0a0a0">
+  <tbody>
+    <tr>
+          <td width="94" bgcolor="#FFFFFF" style="text-align: center;">
+            <img style="width: 94px; height: 101px;" alt="Logo" title="Logo GCABA" src="cid:logoGCABA1">
+         </td>
+      <td width="709" bgcolor="#0072bc" style="text-align: center; font-size: 24px; color: #FFFFFF; font-family: Arial;"><strong>GDE</strong> - Comunicaciones Oficiales</td>
+        </tr>
+    </tr>
+    <tr>
+      <td colspan="2" align="left" style="text-align: left;"><p>&nbsp;</p>
+        <blockquote>
+          <p><small><span style="font-family: Arial;"><big><big>Se le ha redirigido una </big></big></span></small><span style="font-family: Arial;"></span><span style="font-family: Arial; font-weight: bold;">${tipoComunicacionOficial}</span><span style="font-weight: bold;"></span><small><span style="font-family: Arial;">. </span></small><small><span style="font-family: Arial;"><big><big>Para verla presione <a href="${linkAComunicacionOficial}">aqu&iacute;</a></big></big></span></small><big><big>.</big></big><a href="${linkAComunicacionOficial}"><br>
+            </a><a href="${linkAComunicacionOficial}"> </a><br>
+            <br>
+            <small><span style="font-family: Arial;">${linkAComunicacionOficial}</span></small><br>
+            <br>
+            <small><span style="font-family: Arial;"></span></small><br>
+            <span style="font-family: Arial; font-weight: bold;">Informaci&oacute;n de la Comunicaci&oacute;n Oficial recibida</span><br style="font-family: Arial;">
+            <small> <span style="font-family: Arial;">N&uacute;mero de car&aacute;tula GDE: ${nroCaratula}</span><br style="font-family: Arial;">
+            <span style="font-family: Arial;">Tipo de Comunicaci&oacute;n (Nota/Memo):&nbsp;${tipoComunicacionOficial}</span><br style="font-family: Arial;">
+            <span style="font-family: Arial;">Contiene adjuntos: ${contieneAdjuntos}</span></small><br>
+            <br>
+            <br>
+            <small> <span style="font-family: Arial;"><big style="font-weight: bold;">Datos del Originante</big><br style="font-family: Arial;">
+            </span> <span style="font-family: Arial;">Nombre y Apellido: </span><small> <span style="font-family: Arial;"><big>${originante} </big><br>
+            <big>Cargo: (${cargo})</big></span></small></small></p>
+es implementado en el marco de la &lt;strong&gt;Iniciativa de Reforma Administrativa&lt;/strong&gt;&lt;br&gt;<br>
+emprendida por la &lt;strong&gt;Municipalidad de Malvinas Argentinas.&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;<br>
+&lt;br&gt;<br>
+&lt;/p&gt;&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;/tbody&gt;<br>
+&lt;/table&gt;<br>
+&lt;br&gt;<br>
+&lt;small&gt; &lt;span style=&quot;font-family: Arial; font-size: 12px; color:#213362&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-weight: bold;&quot;&gt;ATENCIÓN:&lt;/span&gt; El siguiente es un mensaje generado automáticamente por el &lt;span style=&quot;font-weight: bold;&quot;&gt;
+          <p>&nbsp;</p>
+          <p><small><span style="font-family: Arial;"><big style="font-weight: bold;">Mensaje enviado junto con la Comunicaci&oacute;n Oficial por el originante</big></span></small><br>
+          </p>
+        </blockquote>
+      <table border="1" cellpadding="2" cellspacing="0" bordercolor="#000000" style="text-align: left; width: 775px; height: 343px; margin: 0 auto; ">
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;"><blockquote>
+              <p>&nbsp;</p>
+              <p><small><span style="font-family: Arial;">${mensajeDelOriginante}</span></small><span style="text-align: right"></span><span style="text-align: center"></span><span style="text-align: right"></span><span style="text-align: left"></span><br>
+                </p>
+              </blockquote></td>
+            </tr>
+          </tbody>
+      </table>
+      <br>
+ </p>
+              
+              <br>
+<small> <span style="font-family: Arial; font-size: 12px; color:#000000"><span style="text-decoration: underline; font-weight: bold;">ATENCIÓN:</span> El siguiente es un mensaje generado automáticamente por el <span style="font-weight: bold;">Sistema de Administración de Usuarios </span>de la <span style="font-weight: bold;">Gobierno de la República Argentina</span> y no debe ser respondido.</span></small><br>
+<br>
+              
+            </td>
+          </tr>
+          
+<tr>
+          <td width="94" bgcolor="#FFFFFF" style="text-align: center;">
+            <img style="width: 94px; height: 101px;" alt="Logo" title="Logo GCABA" src="cid:logoGCABA1">
+          </td>
+      <td width="709" bgcolor="#0072bc" style="text-align: center; font-size: 24px; color: #FFFFFF; font-family: Arial;"></td>
+          </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

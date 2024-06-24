@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso de alta de usuario GDE SANTA CRUZ </title>
+<!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style media="all" type="text/css">
+      /* -------------------------------------
+      GLOBAL RESETS
+      ------------------------------------- */
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+          display: block;
+        }
+        body {
+          line-height: 1;
+        }
+        ol, ul {
+          list-style: none;
+          font-size: 18px;
+        }
+        blockquote, q {
+          quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+          content: '';
+          content: none;
+        }
+        table {
+          border-collapse: collapse;
+          border-spacing: 0;
+        }
+      /* -------------------------------------
+      BODY & CONTAINER
+      ------------------------------------- */
+      .container{
+        background-color: #262c61;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: top;
+      }
+      /* -------------------------------------
+      HEADER, FOOTER, MAIN
+      ------------------------------------- */
+      .logoContainer {
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .logo{
+        height: 5vh;
+      }
+      .title{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+      }
+      header{
+        grid-area: header;
+        height: 20vh;
+        background-color: #262c61;
+        color:  #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+      }
+      .main{
+        grid-area: main;
+        height: 63vh;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: left;
+        font-family: "Montserrat", sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 25px 25px 25px 25px; 
+      }
+      footer {
+        height: 10vh;
+        grid-area: footer;
+        background-color: #262c61;
+        color:  #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+      }
+      .logoF{
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      /* -------------------------------------
+      TYPOGRAPHY
+      ------------------------------------- */
+      p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        margin: 0;
+        margin-bottom: 16px;
+      }
+      a {
+        color: #262c61;
+        text-decoration: none;
+      }
+      </style>
+  </head>
+  <body>
+<!-- COMINEZO DE container -->
+    <div class="contenedorPadre">
+<!-- COMIENZO DE header -->
+      <header>
+        <div class="logoContainer"><img class="logo" alt="Logo" title="Logo Santa Cruz" src="cid:logo"></div>
+        <div class="title"><strong>GDE</strong> - Administración de Usuarios</div>
+      </header>
+<!-- FIN DE header -->
+<!-- COMIENZO DE main -->
+      <div class="main">
+        <p><b>Señor/a ${usuarioNombre},</b></p>
+        <br>
+        <p>Por este medio se le notifica que se ha dado de <strong>Alta</strong> su usuario para los sistemas GDE:</p>
+          <ul type="square">
+            <li> ID: <b>${usuarioID}</b></li>
+            <li> Contraseña: <b>${usuarioPassword}</b></li>
+          </ul>
+        <br>
+        <p>Recuerde que la contraseña brindada tiene el carácter de temporal y deberá modificarla al iniciar sesión en el Sistema. Para realizar esto, debe ir a <strong>Escritorio Único</strong> y en la pestaña <strong>Datos Personales</strong> modificar la contraseña.  <strong><a href="http://eu.gde.santacruz.gob.ar/eu-web/">Ingresar al Sistema</a></strong><br></p>
+        <br>
+        <p>Saludos cordiales.</p>
+      </div>
+<!-- FIN DE main -->
+<!-- COMIENZO DE footer -->
+      <footer>
+        <div class="logoF">
+          <img alt="Logo" title="Logo Santa Cruz" src="cid:logo">
+        </div>
+        <div class="titleF">
+          <small><span><span>ATENCIÓN:</span> El siguiente es un mensaje generado automáticamente por el <span>Sistema de Administración de Usuarios </span>del <span>Gobierno de la Provincia de Santa Cruz</span> y no debe ser respondido.</span></small>
+        </div>
+      </footer>
+<!-- FIN DE container -->
+    </div>
+  </body>
+</html>
