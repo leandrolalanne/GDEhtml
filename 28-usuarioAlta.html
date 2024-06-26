@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- FIN Google Fonts -->
+<!-- COMIENZO de estilos CSS -->
     <style media="all" type="text/css">
       /* -------------------------------------
       GLOBAL RESETS
@@ -40,8 +42,7 @@
           line-height: 1;
         }
         ol, ul {
-          list-style: none;
-          font-size: 18px;
+          list-style: square;
         }
         blockquote, q {
           quotes: none;
@@ -59,18 +60,15 @@
       BODY & CONTAINER
       ------------------------------------- */
       .container{
-        background-color: #262c61;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: left;
-        align-items: top;
+        flex-direction: column;
+        background-color: #262c61;
       }
       /* -------------------------------------
       HEADER, FOOTER, MAIN
       ------------------------------------- */
       .logoContainer {
-        width: 20%;
+        padding: 15px 25px 15px 25px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -78,43 +76,37 @@
         align-items: center;
       }
       .logo{
-        height: 5vh;
+        min-height: 4vh;
       }
       .title{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         justify-content: left;
         align-items: center;
       }
       header{
-        grid-area: header;
-        height: 20vh;
+        min-height: 120px;
         background-color: #262c61;
-        color:  #FFFFFF;
+        color:  #FFF5EA;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         justify-content: left;
         align-items: center;
-        font-family: "Montserrat", sans-serif;
-        font-size: 30px;
-        font-weight: 600;
       }
       .main{
-        grid-area: main;
-        height: 63vh;
-        background-color: #FFFFFF;
+        min-height: 400px;
+        background-color: #FFF5EA;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
         align-items: left;
-        font-family: "Montserrat", sans-serif;
-        font-size: 30px;
-        font-weight: 600;
         padding: 25px 25px 25px 25px; 
       }
       footer {
-        height: 10vh;
+        min-height: 90px;
         grid-area: footer;
         background-color: #262c61;
         color:  #FFFFFF;
@@ -124,10 +116,10 @@
         align-items: center;
         font-family: "Montserrat", sans-serif;
         font-size: 12px;
-        font-weight: 500;
+        font-weight: 400;
       }
       .logoF{
-        width: 20%;
+        padding: 15px 25px 15px 25px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -139,38 +131,91 @@
       ------------------------------------- */
       p {
         font-family: "Montserrat", sans-serif;
-        font-size: 16px;
+        font-size: 1.1rem;
         font-weight: normal;
         margin: 0;
-        margin-bottom: 16px;
+        margin-bottom: 3vw;
+        line-height:120%
+      }
+      h2{
+        font-family: "Montserrat", sans-serif;
+        font-size: xx-large;
+        font-weight: bold;
+        margin: 0;
+      }
+      h3{
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 3vw;
+        line-height:120%
       }
       a {
         color: #262c61;
         text-decoration: none;
       }
-      </style>
+      ol, ul {
+          font-family: "Montserrat", sans-serif;
+          font-size: 1.4rem;
+          margin-bottom: 3vw;
+          line-height:110%
+      /* -------------------------------------
+      MEDIA QUERRY
+      ------------------------------------- */
+      @media only screen and (max-width: 640px) {
+      .main p,
+      .main td,
+      .main span {
+        font-size: 16px !important;
+      }
+      .wrapper {
+        padding: 8px !important;
+      }
+      .content {
+        padding: 0 !important;
+      }
+      .container {
+        padding: 0 !important;
+        padding-top: 8px !important;
+        width: 100% !important;
+      }
+      .main {
+        border-left-width: 0 !important;
+        border-radius: 0 !important;
+        border-right-width: 0 !important;
+      }
+      .btn table {
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+      .btn a {
+        font-size: 16px !important;
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+    }
+    </style>
   </head>
+<!-- FIN de estilos CSS -->
   <body>
 <!-- COMINEZO DE container -->
-    <div class="contenedorPadre">
+    <div class="container">
 <!-- COMIENZO DE header -->
       <header>
         <div class="logoContainer"><img class="logo" alt="Logo" title="Logo Santa Cruz" src="cid:logo"></div>
-        <div class="title"><strong>GDE</strong> - Administración de Usuarios</div>
+        <div class="title"><h2><strong>GDE</strong> - Administración de Usuarios</h2></div>
       </header>
 <!-- FIN DE header -->
 <!-- COMIENZO DE main -->
       <div class="main">
-        <p><b>Señor/a ${usuarioNombre},</b></p>
-        <br>
+        <h3>Señor/a ${usuarioNombre},</h3>
         <p>Por este medio se le notifica que se ha dado de <strong>Alta</strong> su usuario para los sistemas GDE:</p>
           <ul type="square">
             <li> ID: <b>${usuarioID}</b></li>
             <li> Contraseña: <b>${usuarioPassword}</b></li>
           </ul>
-        <br>
-        <p>Recuerde que la contraseña brindada tiene el carácter de temporal y deberá modificarla al iniciar sesión en el Sistema. Para realizar esto, debe ir a <strong>Escritorio Único</strong> y en la pestaña <strong>Datos Personales</strong> modificar la contraseña.  <strong><a href="http://eu.gde.santacruz.gob.ar/eu-web/">Ingresar al Sistema</a></strong><br></p>
-        <br>
+        <p>Recuerde que la contraseña brindada tiene el carácter de temporal y deberá modificarla al iniciar sesión en el Sistema. Para realizar esto, debe ir a <strong>Escritorio Único</strong> y en la pestaña <strong>Datos Personales</strong> modificar la contraseña.  <strong><a href="http://eu.gde.santacruz.gob.ar/eu-web/">Ingresar al Sistema</a></strong></p>
         <p>Saludos cordiales.</p>
       </div>
 <!-- FIN DE main -->
